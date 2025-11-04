@@ -99,7 +99,7 @@
             font-size: 4em;
             margin-bottom: 20px;
             color: var(--secondary-color);
-            text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+            
         }
 
         .hero p {
@@ -507,7 +507,7 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <h1>SHIELD AUTOMOTIVE</h1>
+            <h1>Shield Automotive</h1>
             <p>Preventative Maintenance & Automotive Repair</p>
             <a href="#contact" class="cta-button">GET IN TOUCH</a>
         </div>
@@ -679,19 +679,532 @@
     <script>
         // Reviews Array - Add your reviews here
         const reviews = [
-            { name: "Customer 1", rating: 5, body: "" },
-            { name: "Customer 2", rating: 5, body: "" },
-            { name: "Customer 3", rating: 5, body: "" },
-            { name: "Customer 4", rating: 5, body: "" },
-            { name: "Customer 5", rating: 5, body: "" },
-            { name: "Customer 6", rating: 5, body: "" },
-            { name: "Customer 7", rating: 5, body: "" },
-            { name: "Customer 8", rating: 5, body: "" },
-            { name: "Customer 9", rating: 5, body: "" },
-            { name: "Customer 10", rating: 5, body: "" },
-            { name: "Customer 11", rating: 5, body: "" },
-            { name: "Customer 12", rating: 5, body: "" }
-        ];
+    {
+        "name": "Danielle Renee",
+        "rating": 5,
+        "body": "Just wanted to give a shout out to the guys @ Shield automotive. They were awesome! We paid far less than expected for a freon leak diagnosis,repair and freon(The ac is so cold I have to turn it down, even in the heat of the day)The guys … More"
+    },
+    {
+        "name": "Bianca K.",
+        "rating": 5,
+        "body": "Just bought my used car up here. Chris was very informative and knowledgeable about all the information that I needed prices are fair and the professionalism is top-tier. I didn’t leave Confused about anything definitely got my money worth. I appreciate him for any car needs. I do recommend Chris."
+    },
+    {
+        "name": "Gabby Bottger",
+        "rating": 5,
+        "body": "The people at Shield Automotive are beyond amazing. They helped me and my friend when her vehicle broke down on the side of the road. Even though their shop was closed they helped us push her car into a nearby parking lot and let us wait in … More"
+    },
+    {
+        "name": "Hannah Wagar",
+        "rating": 5,
+        "body": "The owner and his son are two of the kindest people I have ever met. My car shut down in the middle of the road and they stopped during their time off to help me and offer me a ride. I won’t hesitate to take my car here the next time I need anything done because of this."
+    },
+    {
+        "name": "Jamell Taylor",
+        "rating": 5,
+        "body": "I would DEFINITELY recommend Shield Automotive. Chris and the guys are very knowledgeable. They took care of an issue for me, and, I was in and out. Great pricing as well. More"
+    },
+    {
+        "name": "Nicole Love",
+        "rating": 5,
+        "body": "Great service friendly knowledgeable and attentive. Chris answered all my questions and concerns. I will be back for my car needs. More"
+    },
+    {
+        "name": "Micah Freeman",
+        "rating": 5,
+        "body": "Chris and his team are top shelf and just quality people you want helping you with your car projects. Easy or hard, classics or newer, they've been there, patient enough to walk me through it.  Very much appreciate this shop. See you soon.. More"
+    },
+    {
+        "name": "Prince",
+        "rating": 5,
+        "body": "Shield auto replaced my engine and repaired my door. The team at shield was very knowledgeable and friendly. Great place to take your car."
+    },
+    {
+        "name": "Ellen Stanley",
+        "rating": 5,
+        "body": "Chris fit me in his schedule and diagnosed & fixed my AC issue. He is an awesome guy and very fair"
+    },
+    {
+        "name": "Jerricka Ory",
+        "rating": 5,
+        "body": "I have been going to Chris with my cars for 6+ years. He has always done a great job! He takes his time to explain what is wrong and what needs to be done to correct an issue. He works with a payment plan if the work is too expensive. The work is always done right. I will never take my cars to anyone else."
+    },
+    {
+        "name": "Natalie Cunningham",
+        "rating": 5,
+        "body": "Chris helped me out when I didn’t know where to start. He was honest and helped me to the best of his ability. If there was something he felt he couldn’t take on he pointed me in the right direction and offered me advisement if I felt I was being taken advantage of. I truly appreciated his help and work!"
+    },
+    {
+        "name": "Brittany Whitfield",
+        "rating": 5,
+        "body": "Best place to get honest work and honest prices 😉 never going anywhere else … Price assessment… More"
+    },
+    {
+        "name": "Tim Morton",
+        "rating": 5,
+        "body": "Family owned atmosphere. 1 on 1 conversation about actual priorities. They are honest about the repairs you need NOW and help you plan for repairs you will need in the FUTURE! They aren't going to have your brakes done in 30 minutes like a … More"
+    },
+    {
+        "name": "Nick Covey",
+        "rating": 5,
+        "body": "Came over to get a blend door actuator installed and they had it ready within the hour! Great staff great manager! Highly recommend!!"
+    },
+    {
+        "name": "Venetia Smith",
+        "rating": 5,
+        "body": "Christopher is the best mechanic in the field. Period. He cares about you and your family on the road and, does the job right the first time. He has the patience to explain to those of us who are not car savvy, what the problem is. I will never go to another mechanic. Take your car to Shield Automotive and you won't be disappointed."
+    },
+    {
+        "name": "Tiffany Woods",
+        "rating": 5,
+        "body": "Chris was so professional and patient! My son wrecked his car and he was able to fix and repair it! I am so grateful and appreciative!! If you need anything cat wise call them!!"
+    },
+    {
+        "name": "Leandra Whittaker",
+        "rating": 5,
+        "body": "Great place to get a repair. Prices are great and competitive. As well the the owner really knows what he talking about. they’re moving to a bigger place to accommodate all that good business! I’d definitely go back for my vehicle needs when I’m in the area! You should too! Overall, great experience! Thanks again for all the help!"
+    },
+    {
+        "name": "Corinah Perkins",
+        "rating": 5,
+        "body": "Thank you Chris for helping me with my car great service!"
+    },
+    {
+        "name": "Naomi Andrews",
+        "rating": 5,
+        "body": "Heard about this place from a friend and went in because I knew I would get treated fairly. Chris knew what the problem was immediately and outline exactly how much everything would cost. There were no surprises  along the way and he … More"
+    },
+    {
+        "name": "Marla Wherry",
+        "rating": 5,
+        "body": "I have been doing business with Shield Automotive for over a year now and it’s been the best! He gets me in and out fast so that I am not without my vehicle for too long and each time he works on my car it feels as though I’m driving a new … More"
+    },
+    {
+        "name": "Corey Hicks",
+        "rating": 5,
+        "body": "I’m not from OKC so it was hard finding a mechanic but I’m glad I fell in the right hands. I have had to come see them 3x for different reasons with my car and they ALWAYS get the issue resolved quick and it’s affordable. The guys really … More"
+    },
+    {
+        "name": "Eric Husted",
+        "rating": 5,
+        "body": "Family friendly mechanic, has always helped me out in a jam and keeps my car running. He doesn't overcharge and he only does what you need, or insist on having. Really love this guy, show your support for a real American, small business owner. It's worth it when it's your vehicle."
+    },
+    {
+        "name": "L L",
+        "rating": 5,
+        "body": "Went back in December to have a cigarette lighter installed and a few extra things fixed in my newly purchased truck. Chris put all other work aside and even stayed an hour late to make sure that I was all good to go for my 1900 mile trip … More"
+    },
+    {
+        "name": "Shay Omokhomion",
+        "rating": 5,
+        "body": "Professional, knowledgeable and thorough. I will definitely be doing business with them in the future! Make sure to ask for Christopher Brown, he’s your guy!"
+    },
+    {
+        "name": "william hurn",
+        "rating": 5,
+        "body": "Been a friend and Customer for years Now ... Definitely the best help for all your repairs and as well  A/C repair period ... Give him a call guys. You won't disappointed."
+    },
+    {
+        "name": "Sarah Wilson",
+        "rating": 5,
+        "body": "Shield Automotive is where I take my vehicles for ALL major repairs and general maintenance checks. I can trust that things will be done and all issues will be communicated clearly. I would highly recommend Shield for anyone looking for an honest mechanic who is an expert in the field and will treat you fairly. More"
+    },
+    {
+        "name": "Sheila Love",
+        "rating": 5,
+        "body": "Knowledgeable and trustworthy - only place I'll take my car. Had multiple oil leaks he fixed and kept my junker running longer than it should have. Now I have him keep my new wheels going!"
+    },
+    {
+        "name": "Gabriel Lewis",
+        "rating": 5,
+        "body": "Someone put sugar in my gas tank. Chris at Shield Automotive was quick to jump in, fixed the issue and got me back on the road! Great experience!"
+    },
+    {
+        "name": "Abigail Twyman",
+        "rating": 5,
+        "body": "Super professional. And very, very reasonable. If you are SICK AND TIRED of the big, corporate automotive places... the ones who only seem to care about getting your money and getting you out, give Chris At Shield a shot. You seriously will NOT be disappointed. More"
+    },
+    {
+        "name": "Samantha",
+        "rating": 5,
+        "body": "Very knowledgeable, thorough, precise and well organized! Friendly in communicating to me what was needed and explanations. Gave us plenty of options to choose from. Got my car back in a timely manner as was promised. More"
+    },
+    {
+        "name": "Marshella Thomas",
+        "rating": 5,
+        "body": "Chris was very courteous, honest, friendly, very up front and professional. An excellent place to go if you don't want to be taken advantage of. Thank you Chris"
+    },
+    {
+        "name": "Donnie Alexander",
+        "rating": 5,
+        "body": "Shield Automotive had friendly staff, quick service and handled everything I needed in a timely professional manner."
+    },
+    {
+        "name": "Phillip Berry",
+        "rating": 5,
+        "body": "Top notch service from top notch folks. Do you want a Real customer service experience by professionals who will also give you quality service. Go to Shield Automotive!"
+    },
+    {
+        "name": "Cogan Bennett",
+        "rating": 5,
+        "body": "This place was very nice the owner came out of his way to help me out and he didnt have to. Thanks alot Christopher Brown! You are the man. Hope you or the kids enjoyed the shirt."
+    },
+    {
+        "name": "James Beesley",
+        "rating": 5,
+        "body": "Straight up pricing, showed me what failed and even gave a reason why it happens… timely and professional, highly recommend Chris and his crew More"
+    },
+    {
+        "name": "Zion Stidham",
+        "rating": 5,
+        "body": "My experience was great, they diagnosed the issue with my tire fairly quickly and provided great service for a reasonable price!"
+    },
+    {
+        "name": "Alyssa Crawford",
+        "rating": 5,
+        "body": "The mechanic was really patient with me, I know nothing about cars and I had been given the wrong price for something but he was polite about it and fixed my car quick and easy."
+    },
+    {
+        "name": "Denzel Dean",
+        "rating": 5,
+        "body": "Good and quick repair to my truck. Friendly fair pricing. Definitely won’t cheat you out your money. More"
+    },
+    {
+        "name": "William Andrews",
+        "rating": 5,
+        "body": "Chris fixed my AC for about 2/3rds of what anybody else quoted me and he did it fast and right. That was last summer and it's still working perfectly. Couldn't be happier."
+    },
+    {
+        "name": "Anthony Montes",
+        "rating": 5,
+        "body": "Christopher is the only person id ever bring my vehicle to in oklahoma, get guy and id trust him with any of my rides."
+    },
+    {
+        "name": "abigail mikell",
+        "rating": 5,
+        "body": "Awesome, great service! Haven’t had trouble with my brakes since."
+    },
+    {
+        "name": "Vince Crisostomo",
+        "rating": 5,
+        "body": "Christopher was able to help me on a whim with what I was needing for my car. Great guy and I highly recommend him!"
+    },
+    {
+        "name": "Sedric Bowens",
+        "rating": 5,
+        "body": "Excellent service and fair prices, definitely one of the best shops in OKC."
+    },
+    {
+        "name": "Franciosa Jackson",
+        "rating": 5,
+        "body": "Professional, friendly, reasonable, knowledgeable and trustworthy. Also ASE Certified Master Automotive Technician. Didn't beat around the bush the questions i asked."
+    },
+    {
+        "name": "Jana Huggins",
+        "rating": 5,
+        "body": "Excellent service! Chris takes great care of his customers and their vehicles."
+    },
+    {
+        "name": "Joshua Lewis",
+        "rating": 5,
+        "body": "They did an awesome job on my A/C!! Also sent my dad's truck up for A/C work! Great Job!!"
+    },
+    {
+        "name": "Lawrence Kincheloe",
+        "rating": 5,
+        "body": "Decent prices, honest and quality work. Fixed a wheel bearing the dealership didn't want to work on."
+    },
+    {
+        "name": "Daniel Douglas",
+        "rating": 5,
+        "body": "Amazing work everytime! From basic belts to turbos! They have it covered!"
+    },
+    {
+        "name": "Brandon Jones",
+        "rating": 5,
+        "body": "That man Chris is the smartest guy ever when it comes to working on any vehicle ! Services… More"
+    },
+    {
+        "name": "Timothy Persley",
+        "rating": 5,
+        "body": "Fast and friendly service, definitely will use them for future repairs. Services… More"
+    },
+    {
+        "name": "Christian Wood",
+        "rating": 5,
+        "body": "Chris is a good man and a good mechanic."
+    },
+    {
+        "name": "Grahamcracker",
+        "rating": 5,
+        "body": "Christopher Brown was very fast and professional. Very nice people Positive… More"
+    },
+    {
+        "name": "Robbie Roberts",
+        "rating": 5,
+        "body": "Great mechanic that knows what he's doing. Wouldn't trust anyone else."
+    },
+    {
+        "name": "David C",
+        "rating": 5,
+        "body": "Great place place to get your car repaired and ASE certified"
+    },
+    {
+        "name": "Shyra Oguinn",
+        "rating": 5,
+        "body": "Great service! They Saved is a lot of money on Ac repairs"
+    },
+    {
+        "name": "McKean Hill",
+        "rating": 5,
+        "body": "Great guy with excellent service!! Thanks Chris! Positive Punctuality, Q… More"
+    },
+    {
+        "name": "Michelle Haynes",
+        "rating": 5,
+        "body": "Emmalyn is amazing and very helpful!!!!"
+    },
+    {
+        "name": "K hart",
+        "rating": 5,
+        "body": "Noting but positive experiences!"
+    },
+    {
+        "name": "Devlon Whittaker",
+        "rating": 5,
+        "body": "Hands down the best shop in town!!...period!!...💪🏾 …"
+    },
+    {
+        "name": "Dana Jones",
+        "rating": 5,
+        "body": "Great Service Great ownership!"
+    },
+    {
+        "name": "TAYLOR jOSEPH",
+        "rating": 5,
+        "body": "Good info, and the Man knows what he's doing"
+    },
+    {
+        "name": "Logan Vernon",
+        "rating": 5,
+        "body": "Great service"
+    },
+    {
+        "name": "Daniel Weaver",
+        "rating": 5,
+        "body": "Very pleased with the service."
+    },
+    {
+        "name": "CJ",
+        "rating": 5,
+        "body": "Great service and pricing"
+    },
+    {
+        "name": "Tye Brown",
+        "rating": 5,
+        "body": "Nice, modern problems and modern solutions"
+    },
+    {
+        "name": "poppylee1977",
+        "rating": 5,
+        "body": "Chris is the car Dr. Positive Professionalism"
+    },
+    {
+        "name": "Laurona Walker",
+        "rating": 5,
+        "body": "Geeat mechanics"
+    },
+    {
+        "name": "Kadarius Griffin",
+        "rating": 5,
+        "body": "Great service Services Air & cabin filter replacement, Battery, Body & T… More"
+    },
+    {
+        "name": "Veronique Trezvant",
+        "rating": 5,
+        "body": ""
+    },
+    {
+        "name": "Lawrence F",
+        "rating": 5,
+        "body": "Services Transmission, Air & cabin filter replacement, Steering & suspe… More"
+    },
+    {
+        "name": "Vikki Coulter",
+        "rating": 5,
+        "body": "Positive Punctuality, Quality, Professionalism, Value… More"
+    },
+    {
+        "name": "I'Eisha Manuel",
+        "rating": 5,
+        "body": "Positive Quality, Professionalism, Value… More"
+    },
+    {
+        "name": "Fran Wallis",
+        "rating": 5,
+        "body": "Positive Punctuality, Quality, Professionalism, Value… More"
+    },
+    {
+        "name": "Brian Hopgood",
+        "rating": 5,
+        "body": "Positive Quality, Professionalism, Value… More"
+    },
+    {
+        "name": "Chris Walker",
+        "rating": 5,
+        "body": "Positive Professionalism… More"
+    },
+    {
+        "name": "Brittany Mobley",
+        "rating": 5,
+        "body": ""
+    },
+    {
+        "name": "Christopher Van Gaasbeek",
+        "rating": 5,
+        "body": ""
+    },
+    {
+        "name": "Jennifer Morton",
+        "rating": 5,
+        "body": ""
+    },
+    {
+        "name": "Kirsten Spray",
+        "rating": 5,
+        "body": ""
+    },
+    {
+        "name": "Nneka",
+        "rating": 5,
+        "body": ""
+    },
+    {
+        "name": "Joshua Shelledy",
+        "rating": 5,
+        "body": ""
+    },
+    {
+        "name": "Kwon Jones",
+        "rating": 5,
+        "body": ""
+    },
+    {
+        "name": "ebonee Humphrey",
+        "rating": 5,
+        "body": ""
+    },
+    {
+        "name": "Kei Deatherage",
+        "rating": 5,
+        "body": ""
+    },
+    {
+        "name": "Wren Geurin",
+        "rating": 5,
+        "body": ""
+    },
+    {
+        "name": "brian binns",
+        "rating": 5,
+        "body": ""
+    },
+    {
+        "name": "Tristan",
+        "rating": 5,
+        "body": ""
+    },
+    {
+        "name": "kyli hammond",
+        "rating": 5,
+        "body": ""
+    },
+    {
+        "name": "C Tman",
+        "rating": 5,
+        "body": "Known or unknown issues Shield, Shield Auto will take care of U.  Honest assessment with affordable options.  New staff member Emilyn is def an asset to level up Shield's professional standards."
+    },
+    {
+        "name": "Tamekia Marion",
+        "rating": 4,
+        "body": "He was honest and truthful and willing to work with u and give his honest opinion  thank you I'll be back"
+    },
+    {
+        "name": "Sonya Kellum",
+        "rating": 4,
+        "body": "Follow-up call after service was appreciated. Car was done before the time advised. Thank you. Positi… More"
+    },
+    {
+        "name": "Bobby Lee",
+        "rating": 4,
+        "body": "Very professional business operated by  respected individuals"
+    },
+    {
+        "name": "Brian Hopgood",
+        "rating": 4,
+        "body": "Good work very detailed Positive Quality, Professionalism, Value… More"
+    },
+    {
+        "name": "Jill Macon",
+        "rating": 4,
+        "body": "Honest and good communicator"
+    },
+    {
+        "name": "Sylvia Lovejones",
+        "rating": 4,
+        "body": "Response from the owner 2 years ago Thanks!"
+    },
+    {
+        "name": "Lynn Rice",
+        "rating": 4,
+        "body": ""
+    },
+    {
+        "name": "Quintez Huddleston",
+        "rating": 4,
+        "body": ""
+    },
+    {
+        "name": "DA Great",
+        "rating": 1,
+        "body": "Decent customer service"
+    },
+    {
+        "name": "Patricia Milligan",
+        "rating": 1,
+        "body": "Worst establishment I have EVER done any type of transaction with! Kept car for days leaving my family stranded with no care. Here is a tip from a customer who just needed help of a good reliable shop( not shields ) and knows nothing about … More"
+    },
+    {
+        "name": "Leslie Green",
+        "rating": 1,
+        "body": "Needs to be more professional and communicate with customers about their needs and wants just a money pit. I spent 1,026.00 on nothing at all went to another shop and they showed me what supposed to be performed wasn’t done right. Suppose … More"
+    },
+    {
+        "name": "Freddie Hawkins",
+        "rating": 1,
+        "body": "I wish I didn’t even have to leave one star Chris called my father-in-law told him that I acted rude  I never did anything unprofessional. I have all my recordings too of the calls that we had and also Anna was very rude. She said she is … More"
+    },
+    {
+        "name": "Levi Schmidt",
+        "rating": 1,
+        "body": "This shop replaced a catalytic converter on my Subaru about 5 months ago. It's now throwing check engine codes which the code reader says is a problem with the \"new\" catalytic converter. They offered to check it out but with a $150 … More"
+    },
+    {
+        "name": "C H",
+        "rating": 1,
+        "body": "Never will recommend or return to this mechanic. Scam! Try to charge me $100 for a diagnosed but ended up paying $70 for it. Communication was off didn't even get nothing said to me about the diagnosed or what happened after they even got … More"
+    },
+    {
+        "name": "Jon Jon (JJ)",
+        "rating": 1,
+        "body": "Came in to diagnose an engine overheating issue on a nissan titan  told him i just had a motor put in. was told i hada blown head gasket and it would be $3k+ to fix. went back to mechanic who put the engine in only to find out it was a clogged radiator. More"
+    },
+    {
+        "name": "Ralisha",
+        "rating": 1,
+        "body": "He tries to be professional and knowledgeable but instead of telling someone what is wrong with their vehicle he goes around all of that. Then he fails to communicate via phone he will respond by text and never answers the phone. We paid … More"
+    }
+];
 
         let currentlyShowing = 6;
 
